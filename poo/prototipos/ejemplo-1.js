@@ -1,7 +1,8 @@
 // SINTAXIS BASICA DE UN PROTOTIPO/ FUNCION CONSTRUCTORA
-function Animal(nombre, color) {
+function Estudiante(nombre, color) {
   this.nombre = nombre;
   this.color = color;
+
   this.sonidoAnimal = function sonidoAnimal() {
     return `Hola, estoy emitiendo un sonido generico`;
   };
