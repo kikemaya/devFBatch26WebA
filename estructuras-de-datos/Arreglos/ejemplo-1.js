@@ -22,6 +22,10 @@ class MyArray {
     this.length--;
     return lastItem;
   };
+  // REMOVER EL PRIMER ELEMENTO
+  shift() {
+
+  }
   // AÑADIR UN ELEMENTO AL PRINCIPIO
   unshift(item) {
     const lastItem = this.data[this.length - 1];
